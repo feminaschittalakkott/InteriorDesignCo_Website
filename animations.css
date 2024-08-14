@@ -1,0 +1,133 @@
+@keyframes moveUp {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes abomination1 {
+    0% {
+      content: "W";
+    }
+    4% {
+      content: "Wh";
+    }
+    8% {
+      content: "Whe";
+    }
+    12% {
+      content: "Wher ";
+    }
+    16% {
+      content: "Where";
+    }
+    20% {
+      content: "Where T";
+    }
+    24% {
+      content: "Where Th";
+    }
+    28% {
+      content: "Where The";
+    }
+    32% {
+      content: "Where The S";
+    }
+    36% {
+      content: "Where The St";
+    }
+    40% {
+      content: "Where The Sty";
+    }
+    44% {
+      content: "Where The Styl";
+    }
+    48% {
+      content: "Where The Style";
+    }
+    52% {
+      content: "Where The Style M";
+    }
+    56% {
+      content: "Where The Style Me";
+    }
+    60% {
+      content: "Where The Style Mee";
+    }
+    64% {
+      content: "Where The Style Meet";
+    }
+    68% {
+      content: "Where The Style Meets";
+    }
+    72% {
+      content: "Where The Style Meets C";
+    }
+    76% {
+      content: "Where The Style Meets Co";
+    }
+    80% {
+      content: "Where The Style Meets Com";
+    }
+    84% {
+      content: "Where The Style Meets Comf";
+    }
+    88% {
+      content: "Where The Style Meets Comfo";
+    }
+    92% {
+      content: "Where The Style Meets Comfor";
+    }
+    96% {
+      content: "Where The Style Meets Comfort";
+    }
+    100% {
+      content: "Where The Style Meets Comfort";
+    }
+}
+@-webkit-keyframes slidein {
+    0% {
+      top: -400px;
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      top: 0px;
+    }
+}
+@keyframes slidein {
+    0% {
+        top: -400px;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        top: 0px;
+    }
+}
+@-webkit-keyframes slideout {
+    0% {
+        top: 0;
+        opacity: 1;
+    }
+    100% {
+        top: -400px;
+        opacity: 0;
+    }
+}
+@keyframes slideout {
+    0% {
+        top: 0;
+        opacity: 1;
+    }
+    100% {
+        top: -400px;
+        opacity: 0;
+    }
+}
