@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+    .banner-image {
+        background-image: url("./Images/Banner.jpeg");
+        height: 50vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .banner-text {
+        text-align: center;
+        top: 20%;
+        left: 10%;
+        color: rgba(0, 0, 0, 0.781);
+        font-size: 30px;
+        animation: abomination1 7.5s linear 1;
+        animation-fill-mode: forwards;
+    }
+
+    .banner-content {
+        display: none;
+    }
+    
+}
